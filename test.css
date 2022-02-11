@@ -1,0 +1,108 @@
+/* killing the default values saved in brownser */
+* {
+  box-sizing: border-box;
+  /* clear: both; */
+  margin: 0;
+  padding: 0;
+}
+
+/* background */
+.bg {
+  background: #081426;
+}
+
+/* --------------styles for the header----------- */
+#header {
+  text-align: center;
+}
+
+h1 {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 42px;
+  color: #f17754;
+
+}
+
+/* ---------------styles for the body------------- */
+#wrapper {
+  padding: 60px;
+  max-width: 900px;
+  margin: 80px auto ;
+  border-top: #ffe4bc 2px solid;
+  border-bottom: #ffe4bc 2px solid;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #ca4754;
+  padding-bottom: 20px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #ffbc90;
+  line-height: 150%;
+}
+
+/* --------------------bordering --------------------*/
+.common {
+  border: 2px solid #f17754;
+  margin-bottom:30px;
+  padding: 30px;                                  
+}
+
+/*-------------- for individual boxes --------------*/
+#box1 {
+  
+}
+
+#box2 {
+  background:#f17754;
+  border-radius: 10px;
+  
+}
+#box2 p {
+  color: #081426  ;
+  
+}
+
+#box3 {
+
+}
+/* --------------for the boxes below-------------- */
+.common2 {
+  margin:15px;
+  border: 2px solid #f17754;
+  border-radius: 10px;
+  padding: 30px;
+  width: 30%;
+  background: #f17754 ;
+  
+}
+
+.common2 h3 {
+  text-align: center;
+}
+
+.common2 p {
+  color: #081426;
+}
+
+#box4 {
+  float: left;
+  margin-left: 59px;
+  
+}
+
+#box5 {
+  float: left; 
+  margin-left: 15px;
+}
+
+#box6 {
+  float: left; 
+  margin-left: 15px;
+}
+
